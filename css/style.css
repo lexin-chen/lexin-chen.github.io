@@ -364,10 +364,10 @@ p {
   text-align: center;
 }
 #head {
-  background: #090909 url(../img/lipidbilayer.png) top center;
+  background: #090909 url(../img/lipidbilayer1.png) top center;
   background-size: cover;
   color: #7C7C7C;
-  padding: 20px 0;
+  padding: 80px 0;
 }
 #head img.img-circle {
   display: block;
