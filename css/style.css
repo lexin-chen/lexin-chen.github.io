@@ -43,7 +43,6 @@ a, a:hover, a:active {
     width: 0;
     height: 0;
 }
-
 .clearfix:after {
     clear: both;
 }
