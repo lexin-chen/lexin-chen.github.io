@@ -1070,8 +1070,8 @@ margin-bottom: 5px;
     color: #171515;
 }
 
-.team_box ul li a.fa-google-plus:hover {
-    color: #dd4b39;
+.team_box ul li a.fa-graduation-cap:hover {
+    color: #4285F4;
 }
  .img-circle {
 border-radius: 50%;
@@ -1244,8 +1244,8 @@ transition: all .3s;
     color: #cb2026;
 }
 
-.gplus a:hover {
-    color: #dd4b39;
+.graduation-cap a:hover {
+    color: #4285F4;
 }
  
 
