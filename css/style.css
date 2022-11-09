@@ -1067,7 +1067,7 @@ margin-bottom: 5px;
     color: #0072b1;
 }
 
-.team_box ul li a.fa-github-square:hover {
+.team_box ul li a.fa-github:hover {
     color: #171515;
 }
 
@@ -1237,11 +1237,11 @@ transition: all .3s;
     color: #55acee;
 }
 
-.facebook a:hover {
+.linkedin-square a:hover {
     color: #3b5998;
 }
 
-.pinterest a:hover {
+.github a:hover {
     color: #cb2026;
 }
 
