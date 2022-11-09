@@ -1063,12 +1063,12 @@ margin-bottom: 5px;
     color: #55acee;
 }
 
-.team_box ul li a.fa-facebook:hover {
-    color: #3b5998;
+.team_box ul li a.fa-linkedin-square:hover {
+    color: #0072b1;
 }
 
-.team_box ul li a.fa-pinterest:hover {
-    color: #cb2026;
+.team_box ul li a.fa-github-square:hover {
+    color: #171515;
 }
 
 .team_box ul li a.fa-google-plus:hover {
