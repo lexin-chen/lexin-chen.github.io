@@ -1067,7 +1067,7 @@ margin-bottom: 5px;
 }
 
 .team_box ul li a.fa-github:hover {
-    color: #171515;
+    color: #6e5494;
 }
 
 .team_box ul li a.fa-graduation-cap:hover {
@@ -1241,7 +1241,7 @@ transition: all .3s;
 }
 
 .github a:hover {
-    color: #cb2026;
+    color: #6e5494;
 }
 
 .graduation-cap a:hover {
