@@ -1,5 +1,5 @@
 Hi there. Welcome to my website. 
 
-[lexinsea.github.io](https://lexinsea.github.io/)
+[lexin-chen.github.io](https://lexin-chen.github.io/)
 
 It is still under so much construction. 
