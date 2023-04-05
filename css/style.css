@@ -2404,9 +2404,10 @@ display:none;
   margin-bottom: 2em;
 }
 
-.project-image {
+.project-image-right {
   float: right;
-  margin-left: 1em;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .project-title {
