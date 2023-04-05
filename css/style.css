@@ -2405,8 +2405,8 @@ display:none;
 }
 
 .project-image {
-  float: left;
-  margin-right: 1em;
+  float: right;
+  margin-left: 1em;
 }
 
 .project-title {
