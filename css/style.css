@@ -2401,13 +2401,18 @@ display:none;
 }
 
 .project {
+  clear: both;
   margin-bottom: 2em;
 }
 
 .project-image {
   float: right;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.project-description {
+  text-align: justify;
 }
 
 .project-title {
