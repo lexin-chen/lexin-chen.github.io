@@ -2399,3 +2399,20 @@ width: 99%;
 display:none;
 }
 }
+
+.project {
+  margin-bottom: 2em;
+}
+
+.project-image {
+  float: left;
+  margin-right: 1em;
+}
+
+.project-title {
+  margin-top: 0;
+}
+
+.project-tech {
+  clear: both;
+}
