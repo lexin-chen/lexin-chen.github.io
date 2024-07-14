@@ -2400,6 +2400,12 @@ display:none;
 }
 }
 
+.container {
+  max-width: 800px; /* Adjust this value as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .project {
   clear: both;
   margin-bottom: 2em;
