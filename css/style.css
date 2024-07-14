@@ -2403,7 +2403,7 @@ display:none;
 .container {
   max-width: 1000px; /* Adjust this value as needed */
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   font-size: 16px; /* Adjust the font size as needed */
 }
 
