@@ -2404,6 +2404,7 @@ display:none;
   max-width: 1000px; /* Adjust this value as needed */
   margin: 0 auto;
   padding: 20px;
+  font-size: 16px; /* Adjust the font size as needed */
 }
 
 .project {
@@ -2419,12 +2420,16 @@ display:none;
 
 .project-description {
   text-align: justify;
+  font-size: 16px; /* Adjust the font size as needed */
 }
 
 .project-title {
   margin-top: 0;
+  font-size: 18px; /* Adjust the font size as needed */
 }
 
 .project-tech {
   clear: both;
+  font-size: 16px; /* Adjust the font size as needed */
 }
+
