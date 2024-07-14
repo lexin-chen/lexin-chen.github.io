@@ -10,6 +10,13 @@ Licence under Creative Commons Attribution 3.0
 
 /* Reset
 ---------------------------------*/
+.container {
+  max-width: 1000px; /* Adjust this value as needed */
+  margin: 0 auto;
+  padding: 2px;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
 ul {
     list-style: none;
 }
@@ -2400,12 +2407,7 @@ display:none;
 }
 }
 
-.container {
-  max-width: 1000px; /* Adjust this value as needed */
-  margin: 0 auto;
-  padding: 2px;
-  font-size: 18px; /* Adjust the font size as needed */
-}
+
 
 .project {
   clear: both;
