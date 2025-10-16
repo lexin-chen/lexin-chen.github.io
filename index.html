@@ -116,13 +116,30 @@
 <section id="projects">
   <div class="container">
     <h2 class="section-title">Selected Software Contributions</h2>
+
+	  	<div class="project">
+	  <h3 class="project-title">DELight</h3>
+	  <div class="project-content">
+	    <img src="img/1bna.png" width="400" height=auto alt="1bna" class="project-image" style="float: right; margin-left: 20px;">
+	    <div class="project-description">
+	      <p>Faced with the critical bottleneck of extreme class imbalance in billion-compound DNA-Encoded Libraries, where traditional ML models failed, I developed the DELight framework. I designed and benchmarked novel, targeted undersampling strategies to selectively curate training data. The result was a robust solution that significantly improved model generalizability and reliable hit identification, transforming massive, skewed datasets into actionable discovery tools. </p>    
+	&nbsp
+	      <p>Technologies used: Python</p>
+		  &nbsp
+	<a href="https://github.com/mqcomplab/DELight"><img src="https://img.shields.io/badge/Code-f74d4d" height="25"> </a>
+<a href="https://github.com/mqcomplab/DELight/blob/main/README.md"><img src="https://img.shields.io/badge/Docs-f74d4d" height="25"> </a>
+<a href="https://www.biorxiv.org/content/10.1101/2025.09.20.677527v1"><img src="https://img.shields.io/badge/Article-f74d4d" height="25"> </a>
+	    </div>
+	  </div>
+	</div>
+
 	  
 	<div class="project">
 	  <h3 class="project-title">MDANCE</h3>
 	  <div class="project-content">
 	    <img src="img/mdance.png" width="400" height=auto alt="Screenshot of Project 0" class="project-image" style="float: right; margin-left: 20px;">
 	    <div class="project-description">
-	      <p>Molecular Dynamics Analysis with <i>N</i>-ary Clustering Ensembles (MDANCE) is a flexible <i>n</i>-ary clustering package that provides tools for clustering Molecular Dynamics trajectories. The package is designed to be modular and extensible, allowing for the addition of new clustering algorithms and similarity metrics. MDANCE transcends the limitations of traditional approaches by introducing novel, linear scaling (highly efficient) clustering algorithms and can be highly useful in applications such as drug design, million-molecule molecular docking, and molecular dynamics analysis. </p>
+	      <p>Conventionally, the computational bottleneck of analyzing massive molecular datasets and ultra-long simulations using traditional clustering methods was prohibitively slow. My solution was to pioneer a novel, linear-time clustering algorithm, architecting the MDANCE framework to be inherently modular and scalable by design. The result was a <b>groundbreaking 25x speedup</b>, enabling efficient similarity search and pattern recognition in million-scale molecular libraries and making large-scale analysis feasible for the first time. </p>
 		&nbsp
 		    <p>Technologies used: Python</p>
 		    &nbsp
@@ -138,9 +155,9 @@
 	<div class="project">
 	  <h3 class="project-title">PRIME</h3>
 	  <div class="project-content">
-	    <img src="img/2k2e.png" width="400" height=auto alt="Screenshot of Project 1" class="project-image" style="float: right; margin-left: 20px;">
+	    <img src="img/2k2e.png" width="400" height=auto alt="2k2e" class="project-image" style="float: right; margin-left: 20px;">
 	    <div class="project-description">
-	      <p>Refining protein structures is important because the accuracy of protein structures influences our understanding of their function and their interactions with other molecules, which can help design new drugs to target specific molecular interactions. Six different ways of determining the native structure of biomolecules were introduced. Protein Retrieval via Integrative Ensembles (PRIME), consisting of tools to determine the native structure using the extended continuous similarity. PRIME was validated to several replica-exchanged systems, flexible protein, and protein-peptide systems to identify the ensemble representative. <b>PRIME perfectly mapped all the structural motifs in the studied systems and required unprecedented linear scaling.</b> Easy integration to clustering or simulation data. </p>    
+	      <p>Accurately identifying a protein's true native structure from thousands of simulated conformations is a major bottleneck in structural biology, directly impacting our ability to understand function and design drugs. To solve this, I developed PRIME (Protein Retrieval via Integrative Ensembles), a novel tool that uses extended continuous similarity to intelligently pinpoint the definitive structure from complex ensembles. The result was a breakthrough in accuracy and efficiency: PRIME <b>perfectly mapped all structural motifs</b> across diverse challenging systems, achieving this with unprecedented linear scaling to make high-fidelity structural refinement both reliable and scalable. </p>    
 	&nbsp
 	      <p>Technologies used: Python</p>
 		  &nbsp
@@ -156,7 +173,7 @@
 	  <div class="project-content">
 	    <img src="img/descriptor.png" width="400" height=auto alt="Screenshot of Project 1" class="project-image" style="float: right; margin-left: 20px;">
 	    <div class="project-description">
-	      <p>The mystery of ion selectivity in electrolyte solutions has puzzled scientists for centuries with little known why nature is keen on selecting one ion over the other, known as the specific ions effect. This project allows users to predict specific ion effect (SIE) properties through magnitudes extracted from conceptual DFT to approximate the charge and radius of an ion with or without perturbed descriptors and using different models of charge transfer in solution. </p>
+	      <p>The mystery of ion selectivity in electrolyte solutions has puzzled scientists for centuries, with little known about why nature prefers one ion over another, a phenomenon known as the specific ion effect. I tackled this challenge by developing a computational framework that moves from qualitative observation to quantitative prediction. Using conceptual Density Functional Theory (DFT), I created models that capture the essential electronic properties of ions to accurately forecast their behavior. This work provides a principled, physics-based method to finally decipher the rules behind nature's selective preferences. </p>
 		&nbsp
 		    <p>Technologies used: Python</p>
 		    &nbsp
@@ -237,10 +254,10 @@
 <div class="col-sm-6 col-md-6">
 <h2>Technical Skills</h2>
 
-		<li>Developed data analysis pipelines in Python, resulting in a 25x increase in efficiency. </li> 
-                <li>Independently managed 16 Git repositories, ensuring proper documentation and version control. </li> 
-	        <li>Fluent in Blender with experience creating high-quality scientific renders for publications and presentations for molecules and biomolecules. </li>
-         	<li>Conducted molecular dynamics simulations to investigate tricky systems such as protein-ligand interactions and membrane proteins using AMBER and NAMD.  </li>
+		<li>Architected novel, linear-time clustering algorithms (MDANCE) achieving >25x speedup for million-molecule libraries and MD trajectories. </li> 
+                <li>Engineered billion-scale data pipelines (BitBirch, DELight) in Python for chemical space navigation and robust ML model training on imbalanced data. </li> 
+	        <li>Expert in molecular simulations (AMBER, NAMD) and structure-based drug design (Glide) to investigate protein-ligand interactions and conformational ensembles. </li>
+         	<li>Proficient in full research software lifecycle, from development and version control (Git) to creating high-fidelity scientific visualizations for publication.  </li>
 		
 	</ul><!-- /.about-us-list -->
 </div>
@@ -464,104 +481,7 @@
  
   
 </section>
-<!--/Portfolio  
-<section id="experience">
-<div class="container">
-    <section id="news" class="white-bg padding-top-bottom">
-    	<div class="container">
-			<div class="timeline">
-				<div class="date-title">
-					<span>2015</span>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 news-item">
-						<div class="news-content">
-							<div class="date">
-								<p>Oct</p> 
-							</div>
-							<h2 class="news-title">Facebook</h2> 
-							<span>UI/UX Designer</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure…</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p>Aug</p> 
-							</div>
-							<h2 class="news-title">Google</h2> 
-							<span>UI/UX Designer</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure…</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-sm-6 news-item">
-						<div class="news-content">
-							<div class="date">
-								<p>Apr</p> 
-							</div>
-							<h2 class="news-title">Microsoft</h2> 
-							<span>UI/UX Designer</span> 
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure…</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p>Feb</p> 
-							</div>
-							<h2 class="news-title">Apple</h2> 
-							<span>UI/UX Designer</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure…</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-				
-				<div class="date-title">
-					<span>2013</span>
-				</div>
-				<div class="row">	
-					<div class="col-sm-6 news-item">
-						<div class="news-content">
-							<div class="date">
-								<p>Aug</p> 
-							</div>
-							<h2 class="news-title">Intell</h2> 
-							<span>UI Designer</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that.</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-					
-					<div class="col-sm-6 news-item right">
-						<div class="news-content">
-							<div class="date">
-								<p>Jan</p> 
-							</div>
-							<h2 class="news-title">Amazon</h2> 
-							<span>Designer</span>
-							<p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces.</p>
-							<a class="read-more" href="#">Read More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>				                                                      
-</section> 
-  
-  
-  -->
-<!--Footer-->
+
 <footer class="footer_wrapper" id="contact">
   <div class="container">
     <section class="page_section contact" id="contact">
