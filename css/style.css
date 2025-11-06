@@ -708,11 +708,6 @@ a.contact_btn:hover {
 /* Portfolio
 ---------------------------------*/
 
-
-#Portfolio {
-    padding: 60px 0px;
-}
-
 .Portfolio-nav {
     padding: 0;
     margin: 0 0 45px 0;
@@ -2435,3 +2430,7 @@ display:none;
   font-size: 14px; /* Adjust the font size as needed */
 }
 
+#About, #Projects, #Skills, #Portfolio {
+    padding-top: 80px;
+    margin-top: -80px;
+}
