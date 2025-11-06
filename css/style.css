@@ -205,7 +205,7 @@ figure.effect-oscar:hover img {
 body {
     background: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12.5px;
+    font-size: 14px;
     font-weight: normal;
     color: #888888;
     margin: 0;
@@ -241,7 +241,7 @@ h6 {
 p {
     line-height: 24px;
     margin: 0;
-	font-size: 13px;
+	font-size: 15px;
 }
 
 /* Header Styles
@@ -2422,7 +2422,7 @@ display:none;
 
 .project-description {
   text-align: justify;
-  font-size: 14px; /* Adjust the font size as needed */
+  font-size: 15px; /* Adjust the font size as needed */
 }
 
 .project-title {
